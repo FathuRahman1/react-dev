@@ -1,0 +1,14 @@
+body {
+    background-color: aqua;
+}
+
+h1,
+h2 {
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.penting {
+    background-color: red;
+    padding: 25px;
+}
