@@ -11,4 +11,9 @@ h2 {
 .penting {
     background-color: red;
     padding: 25px;
+    display: inline-block;
+}
+
+#copyright {
+    color: brown;
 }
