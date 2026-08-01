@@ -18,27 +18,27 @@ h2 {
     display: inline-block;
 }
 
-#keahlian {
+/* #keahlian {
     width: 50px;
     height: 60px;
     border: 3px dashed black;
     background-color: blue;
-}
+} */
 
 #copyright {
     color: brown;
     
 }
 
-#hobby {
+ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 5px;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 @media (min-width: 600px) {
-    #hobby{
-        flex-direction: row;
+    ul{
+        flex-direction: column;
     }
 }
