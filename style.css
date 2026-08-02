@@ -28,11 +28,9 @@ header nav a {
   border: 3px solid black;
   padding: 5px;
   border-radius: 10px;
-  max-width: 200px;
+  max-width: 300px;
 }
-body {
-    min-width: 300px;
-}
+
 body main div {
   display: flex;
   justify-content: space-around;
@@ -40,5 +38,16 @@ body main div {
   gap: 50px;
 }
 aside {
-  max-width: 200px;
+  max-width: 300px;
+}
+body{
+    min-width: 350px;
+}
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+    #materi{
+        justify-content: center;
+    }
 }
